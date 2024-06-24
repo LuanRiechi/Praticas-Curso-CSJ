@@ -14,6 +14,7 @@ public class DesativarComponentes : MonoBehaviour
         //Desativa apenas o componente de script do objeto
         //obj.GetComponent<Arrays>().enabled= false;
 
+        // Verifica se o objeto esta ativo na cena, caso esteja ele desativa e caso esteja desativado ele ativa
         if (obj.activeSelf)
         {
             obj.SetActive(false);
